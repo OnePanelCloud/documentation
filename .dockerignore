@@ -1,0 +1,9 @@
+build/
+dist/
+old/
+node_modules/
+.next/
+Dockerfile
+.dockerignore
+.gitignore
+README.md

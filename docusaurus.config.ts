@@ -25,8 +25,8 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: "en",
-    locales: ["en"],
+    defaultLocale: "pt-BR",
+    locales: ["pt-BR"],
   },
 
   presets: [
@@ -73,18 +73,14 @@ const config: Config = {
           title: "Docs",
           items: [
             {
-              label: "Tutorial",
-              to: "/docs/intro",
+              label: "Introdução",
+              to: "/",
             },
           ],
         },
         {
           title: "Community",
           items: [
-            {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
-            },
             {
               label: "Discord",
               href: "https://discordapp.com/invite/docusaurus",
@@ -93,18 +89,18 @@ const config: Config = {
               label: "Twitter",
               href: "https://twitter.com/docusaurus",
             },
+            {
+              label: "Instagram",
+              href: "https://www.instagram.com/onepanelcloud/",
+            },
           ],
         },
         {
           title: "More",
           items: [
             {
-              label: "Blog",
-              to: "/blog",
-            },
-            {
               label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              href: "https://github.com/onepanelcloud/documentation",
             },
           ],
         },
