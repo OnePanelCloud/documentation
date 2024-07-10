@@ -1,6 +1,7 @@
 ---
-slug: /
+sidebar_position: 1
 title: Bem vindo
+slug: /
 ---
 
 # Bem vindo a nossa documentação
@@ -10,5 +11,3 @@ Este é o início da nossa documentação.
 ## Introdução
 
 Pois bem, vamos começar!
-
-## O que você vai aprender
