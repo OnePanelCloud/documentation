@@ -36,10 +36,6 @@ const config: Config = {
         docs: {
           routeBasePath: "/",
           sidebarPath: "./sidebars.ts",
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         blog: false,
         theme: {
@@ -60,7 +56,7 @@ const config: Config = {
       },
       items: [
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/OnePanelCloud/documentation",
           label: "GitHub",
           position: "right",
         },
@@ -70,7 +66,7 @@ const config: Config = {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "Documentação",
           items: [
             {
               label: "Introdução",
@@ -79,11 +75,11 @@ const config: Config = {
           ],
         },
         {
-          title: "Community",
+          title: "Comunidade",
           items: [
             {
               label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
+              href: "/",
             },
             {
               label: "Twitter",
@@ -96,7 +92,7 @@ const config: Config = {
           ],
         },
         {
-          title: "More",
+          title: "Mais",
           items: [
             {
               label: "GitHub",
@@ -105,7 +101,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `&copy; ${new Date().getFullYear()} One Panel. Todos os Direitos Reservados.`,
     },
     prism: {
       theme: prismThemes.github,
