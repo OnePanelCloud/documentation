@@ -42,5 +42,5 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            ghcr.io/OnePanelCloud/${{ github.event.repository.name }}:${{ steps.extract_branch.outputs.branch }}-latest
-            ghcr.io/OnePanelCloud/${{ github.event.repository.name }}:${{ steps.extract_branch.outputs.branch }}-${{ steps.date.outputs.date }}
+            ghcr.io/onepanelcloud/${{ github.event.repository.name }}:${{ steps.extract_branch.outputs.branch }}-latest
+            ghcr.io/onepanelcloud/${{ github.event.repository.name }}:${{ steps.extract_branch.outputs.branch }}-${{ steps.date.outputs.date }}
