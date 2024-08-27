@@ -3,8 +3,6 @@ sidebar_position: 1
 title: Criação de um VPS
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
 # Criação de um VPS
 
@@ -29,14 +27,3 @@ Dê um nome a sua VM como por exemplo `servidor`.
 sendo ela `usuário ROOT` ou `Chave SSH`.
 
 ![SSH/ROOT](../../../static/img/prints/vps/ssh-ou-root.png)
-
-<Tabs>
-  <TabItem value="ssh" label="Acesso SSH" default>
-    Para configurar o acesso SSH você deve clicar em `Adicionar Chave`
-    ![Chave](../../../static/img/prints/vps/adicionar-chave.png)
-  </TabItem>
-
-  <TabItem value="nome completo" label="Nome Completo">
-Nesse campo você irá colocar o seu nome completo.
-</TabItem>
-</Tabs>
