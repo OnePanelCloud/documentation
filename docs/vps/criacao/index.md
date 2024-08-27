@@ -3,6 +3,9 @@ sidebar_position: 1
 title: Criação de um VPS
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Criação de um VPS
 
 Aqui vocês irá aprender a criar sua primeira VPS.
