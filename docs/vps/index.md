@@ -5,12 +5,19 @@ title: VPS
 
 # O que é um VPS
 
-VPS é um servidor virtual, que é um servidor que você pode usar para hospedar seus sites ou aplicativos.
+
+Um VPS (Virtual Private Server) é um tipo de servidor virtual que permite que vários servidores sejam executados em um único servidor físico. Isso significa que você pode ter vários sites hospedados em um único servidor, cada um com seu próprio IP e espaço de armazenamento. Isso é útil para empresas ou pessoas que precisam de vários servidores para hospedar seus sites. O VPS é uma alternativa conveniente para as máquinas virtuais (VM) e para os serviços de hospedagem de site.
 
 ## Introdução
 
 Vantagens de um VPS:
 
-- Você pode usar o seu computador para hospedar seus sites ou aplicativos.
+- Você não precisa usar o seu computador para hospedar seus sites ou aplicativos.
+- Tem um desempenho `MUITO` superior em todas suas aplicações.
+- Não tem gastos adicionais com `rede`ou `energia`.
 
 ## O que você vai aprender
+
+- Criar Servidor VPS
+- Configurar o Acesso
+- Acessar o servidor VPS

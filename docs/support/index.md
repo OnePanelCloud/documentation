@@ -5,8 +5,8 @@ title: Suporte
 
 # Suporte
 
-Como obter suporte.
+Aqui será ensinado como obter suporte atravez do site da One Panel.
 
 ## Introdução
 
-## O que você vai aprender
+Como obter suporte.
