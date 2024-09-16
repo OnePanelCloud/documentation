@@ -1,51 +1,88 @@
----
-title: DNS Tipo A
-sidebar_position: 4.1
+---  
+title: Como configurar o DNS 
+sidebar_position: 4.1  
 ---
 
-import Tabs from '@theme/Tabs';
+import Tabs from '@theme/Tabs';  
 import TabItem from '@theme/TabItem';
 
+# O que é DNS?
 
-Para adicionar os serviços DNS clique em Adicionar
+**DNS** (Sistema de Nomes de Domínio, ou Domain Name System em inglês) é o sistema que traduz nomes de domínio (como `seudominio.com`) em endereços IP, permitindo que navegadores e outros dispositivos se conectem aos sites usando nomes amigáveis em vez de números.
 
-![dns](../../../static/img/prints/domain/dns/adicionar.png)
+## Tipos de Registros DNS
 
-<Tabs>
+Existem vários tipos de registros DNS que permitem que um domínio aponte para um servidor específico ou que realize redirecionamentos, os mais comuns são:
+
+- **Tipo A**: Aponta um domínio para um endereço IPv4.
+- **Tipo AAAA**: Aponta um domínio para um endereço IPv6.
+- **CNAME**: Cria um apelido (alias) para outro domínio, permitindo redirecionamentos.
+
+Agora que entendemos o que é DNS e quais os tipos mais comuns, vamos aprender como adicionar esses registros no painel OP.
+
+## Como Adicionar Registros DNS
+
+Para adicionar serviços de DNS, clique em `Adicionar`.
+
+![Adicionar DNS](../../../static/img/prints/domain/dns/adicionar.png)
+
+<Tabs>  
   <TabItem value="dns1" label="DNS Tipo A" default>
-    Vamos criar um dns tipo `A` para `IPv4`
-    Você pode preencher os dados como explicado na imagem a baixo.
+
+### 1. Criando um Registro Tipo A
+
+O registro **A** é usado para apontar um domínio para um endereço **IPv4**.
+
+1. No campo `Tipo de DNS`, selecione **A**.
+2. Preencha os campos solicitados, como mostrado na imagem abaixo:
+   
+   - **Nome**: O subdomínio que deseja usar, como `www`.
+   - **Endereço IPv4**: O endereço IP para o qual o domínio deve apontar.
+   
+   Exemplo: Para `www.seudominio.com.br`, você usaria `www` como nome e o IPv4 do servidor.
 
 ![dns-a](../../../static/img/prints/domain/dns/a.png)
 
-Então basta clicar em `Adicionar` e pronto, estará funcionando seu DNS.
+3. Clique em `Adicionar`. Agora seu registro **A** está configurado.
 
-Aqui, o nome ficará como `nome-desejado.lintelhosting.com` no seu caso, será seu domínio.
+</TabItem>
 
-  </TabItem>
-  <TabItem value="dns-aaa" label="DNS Tipo AAA">
-      Vamos criar um dns tipo `AAA` para `IPv6`
-      Primeiro você seleciona o Tipo de DNS, coloque o `AAA`
+<TabItem value="dns-aaa" label="DNS Tipo AAA">
 
-![dns-aaa-tipo](../../../static/img/prints/domain/dns/tipo.png)
-     
-    Você pode preencher os dados como explicado na imagem a baixo.
+### 2. Criando um Registro Tipo AAAA
+
+O registro **AAAA** funciona de forma semelhante ao registro **A**, mas é utilizado para apontar um domínio para um endereço **IPv6**, que é a versão mais recente dos endereços IP.
+
+1. No campo `Tipo de DNS`, selecione **AAAA**.
+2. Preencha os campos solicitados com o nome e o endereço IPv6.
+
+   - **Nome**: O subdomínio que deseja usar, como `www`.
+   - **Endereço IPv6**: O endereço IPv6 para o qual o domínio deve apontar.
 
 ![dns-aaa](../../../static/img/prints/domain/dns/aaa.png)
 
-Neste caso o nome ficará como `nome.lintelhosting.com` redirecionando para o IPv6.
+3. Clique em `Adicionar` para configurar seu registro **AAAA**.
 
-Após isso basta clicar em criar também.
-  </TabItem>
-  <TabItem value="cname" label="CNAME">
-  Para adicionar um DNS `CNAME` você deve mudar o registro de `A` que é o padrão para CNAME
-  da seguinte forma: 
+</TabItem>
 
-![dns-cname-tipo](../../../static/img/prints/domain/dns/cname.png)
+<TabItem value="cname" label="CNAME">
 
-Agora é so completar com os dados do seu dominio para redirecionamento.
+### 3. Criando um Registro CNAME
+
+O registro **CNAME** é usado para criar um **alias** para outro domínio. Isso é útil para redirecionar um subdomínio para um domínio existente sem precisar apontá-lo para um IP diretamente.
+
+1. No campo `Tipo de DNS`, selecione **CNAME**.
+2. Preencha os campos solicitados:
+
+   - **Nome**: O subdomínio que deseja redirecionar, como `blog`.
+   - **CNAME**: O domínio para o qual você quer redirecionar o subdomínio (por exemplo, `seudominio.com.br`).
 
 ![dns-cname](../../../static/img/prints/domain/dns/cname-a.png)
-</TabItem>
-  
+
+3. Clique em `Adicionar` para configurar o registro **CNAME**.
+
+</TabItem>  
 </Tabs>
+
+---
+
