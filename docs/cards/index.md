@@ -15,7 +15,7 @@ Para adicionar um cartão você pode ir até a tela inicial e escolher a opção
 
 Você se deparará com esta tela. Clique no botão **Adicionar Agora**
 
-![tela de adicionar cartao](../../static/img/prints/console/cardss.jpeg)
+![tela de adicionar cartao](../../static/img/prints/console/cardlist.png)
 
 Pronto, agora vamos adicionar um cartão!
 ---
@@ -32,7 +32,7 @@ Você pode ver uma prévia em tempo real no painel direito.
 
 :::
 
-![tela de adicionar cartao](../../static/img/prints/console/cardsss.jpeg)
+![tela de adicionar cartao](../../static/img/prints/console/new-card.png)
 
 Com todos os dados já preenchidos clique no botão **Adicionar Cartão** para confirmar a adição
 
@@ -42,4 +42,4 @@ Agora que você tem suas seu cartão de crédito adicionado.
 
 :::
 
-![final do cartao](../../static/img/prints/console/cardssss.jpeg)
+![final do cartao](../../static/img/prints/console/cards-list.png)
