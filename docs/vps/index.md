@@ -37,37 +37,27 @@ Clique em `Adicionar`.
 
 ![Adicionar](../static/img/prints/vps/adicionar-vps.png)
 
-Dê um nome para sua VPS, por exemplo, `servidor`.
-
-Agora, você precisará escolher como deseja acessar sua VPS: através de `usuário ROOT` ou utilizando uma `Chave SSH`.
-
-![SSH/ROOT](../static/img/prints/vps/ssh-ou-root.png)
-
 ---
 
 ## Seleção de Node e Sistema Operacional
 
 ### Tipo de configuração da máquina
 
-Neste passo, você deverá selecionar o tipo de configuração desejada para a sua VPS. As opções incluem processadores Xeon, máquinas compartilhadas ou dedicadas.
+Neste passo, você deverá selecionar o tipo de configuração desejada para a sua VPS. As opções incluem o tipo do processador, máquinas compartilhadas ou dedicadas.
 
 ![Selecao1](../static/img/prints/vps/datacenter-1.png)
 
-Após escolher a configuração, selecione o sistema operacional (SO) para sua VPS. Neste exemplo, escolhemos `Ubuntu 22.04`.
+Após escolher o datacenter, configure a quantidade de vcpu, memória e espaço de disco para sua VPS. Neste exemplo, foi definido com a configuração basica.
 
-![Selecao2](../static/img/prints/vps/sistema.png)
+![Selecao2](../static/img/prints/vps/config.png)
 
-### Seleção de plano e IPv4
+Após configurar sua VPS, selecione o sistema operacional (SO) para sua VPS. Neste exemplo, escolhemos `Ubuntu 22.04`.
 
-Agora, selecione o tipo de pagamento. Caso deseje adicionar um `IPv4` dedicado à sua VPS, haverá um custo adicional, que será permitido apenas para máquinas com capacidade para isso.
-
-![Selecao3](../static/img/prints/vps/plano.png)
-
-Após configurar, clique em `CRIAR`.
-
----
+![Selecao2](../static/img/prints/vps/new-system.png)
 
 ## Métodos de Acesso ao VPS
+
+![Selecao2](../static/img/prints/vps/info.png)
 
 Você pode acessar sua VPS de duas formas principais: utilizando o `usuário ROOT` ou através de uma `Chave SSH`. Abaixo, explicamos como configurar ambos os métodos.
 
@@ -95,7 +85,9 @@ Se preferir configurar o acesso por `Chave SSH`, siga os passos abaixo:
 Lembre-se de utilizar uma **chave pública** aqui.
 :::
 
-3. Clique em `Adicionar` para finalizar a configuração.
+3. Clique em `Próximo` para ir para a etapa de confirmação da configuração da VPS.
+
+![Confirmação](../static/img/prints/vps/confirm.png)
 
 ---
 
