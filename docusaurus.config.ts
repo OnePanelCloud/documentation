@@ -4,7 +4,8 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "Documentação One Panel - Serviços de nuvem e VPS",
-  tagline: "OnePanel oferece serviços de nuvem e soluções de VPS de alta performance, ajudando você a otimizar sua infraestrutura e focar no que realmente importa para o seu negócio.",
+  tagline:
+    "OnePanel oferece serviços de nuvem e soluções de VPS de alta performance, ajudando você a otimizar sua infraestrutura e focar no que realmente importa para o seu negócio.",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -53,8 +54,14 @@ const config: Config = {
       logo: {
         alt: "One Panel Logo",
         src: "img/logo.svg",
+        srcDark: "img/logo_dark.svg",
       },
       items: [
+        {
+          href: "https://www.onepanel.com.br",
+          label: "One Panel - Website",
+          position: "right",
+        },
         {
           href: "https://github.com/OnePanelCloud/documentation",
           label: "GitHub",
@@ -66,11 +73,19 @@ const config: Config = {
       style: "dark",
       links: [
         {
-          title: "Documentação",
+          title: "Links",
           items: [
             {
-              label: "Introdução",
-              to: "/",
+              label: "Bem vindo",
+              href: "/",
+            },
+            {
+              label: "One Panel - Website",
+              href: "https://www.onepanel.com.br",
+            },
+            {
+              label: "GitHub",
+              href: "https://github.com/onepanelcloud/documentation",
             },
           ],
         },
@@ -79,7 +94,7 @@ const config: Config = {
           items: [
             {
               label: "Discord",
-              href: "/",
+              href: "https://discord.gg/2qdZrjP2",
             },
             {
               label: "Twitter",
@@ -88,15 +103,6 @@ const config: Config = {
             {
               label: "Instagram",
               href: "https://www.instagram.com/onepanelcloud/",
-            },
-          ],
-        },
-        {
-          title: "Mais",
-          items: [
-            {
-              label: "GitHub",
-              href: "https://github.com/onepanelcloud/documentation",
             },
           ],
         },
