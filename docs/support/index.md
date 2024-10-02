@@ -1,6 +1,6 @@
 ---
-sidebar_position: 5
 title: Suporte
+sidebar_position: 5
 ---
 
 # Suporte

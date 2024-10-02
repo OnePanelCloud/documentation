@@ -1,6 +1,6 @@
 ---
+title: Abrir tickets
 sidebar_position: 5
-title: Suporte
 ---
 
 # Abrir tickets
