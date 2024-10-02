@@ -6,4 +6,4 @@ slug: /motivation
 
 # Motivação
 
-Na One Panel, buscamos tornar a hospedagem de serviços mais acessível e eficiente. Nosso objetivo é simplificar a gestão de servidores, permitindo que você se concentre no seu projeto. Estamos comprometidas em oferecer uma plataforma que atenda às suas necessidades e ofereça suporte em sua experiência de hospedagem.
+Na OnePanel, nosso objetivo é tornar a gestão de serviços em nuvem e VPS mais acessível e eficiente. Queremos simplificar a administração de servidores, permitindo que você foque no que realmente importa: o seu projeto. Estamos comprometidos em oferecer uma plataforma robusta e flexível que atenda às suas necessidades, proporcionando suporte completo para otimizar sua experiência com nossa infraestrutura.
