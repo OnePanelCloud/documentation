@@ -4,10 +4,10 @@ title: Bem vindo
 slug: /
 ---
 
-# Bem-vindo(a) à Documentação da One Panel!
+# Bem-vindo(a) à Documentação da OnePanel!
 
- Você está prestes a descobrir tudo que a One Panel tem a oferecer para a hospedagem de serviços. Nossa documentação foi escrita para garantir que você tenha uma experiência  simples e intuitiva.
+Descubra tudo o que a OnePanel oferece em serviços de nuvem, VPS, e muito mais. Aqui você encontrará as informações necessárias para aproveitar ao máximo nossos serviços.
 
-## Introdução à One Panel
+## Introdução à OnePanel
 
-A One Panel é um site de hospedagem de serviços que oferece soluções confiáveis para gerenciar seus servidores. Com uma interface intuitiva, nossa plataforma atende tanto iniciantes quanto usuários experientes. Nesta documentação, você encontrará tudo o que precisa para aproveitar ao máximo as funcionalidades da One Panel, desde a configuração inicial até dicas avançadas.
+A OnePanel é uma plataforma completa que oferece serviços de nuvem, VPS, email, DNS, servidores proxy e várias outras soluções para gerenciar sua infraestrutura com eficiência e segurança. Com uma interface amigável, a OnePanel atende tanto iniciantes quanto usuários avançados. Esta documentação fornece orientações detalhadas, desde a configuração inicial até dicas avançadas, para que você explore todo o potencial da nossa plataforma.

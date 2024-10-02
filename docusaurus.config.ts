@@ -3,8 +3,8 @@ import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-  title: "Documentação One Panel",
-  tagline: "Dinosaurs are cool",
+  title: "Documentação One Panel - Serviços de nuvem e VPS",
+  tagline: "OnePanel oferece serviços de nuvem e soluções de VPS de alta performance, ajudando você a otimizar sua infraestrutura e focar no que realmente importa para o seu negócio.",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
