@@ -22,3 +22,6 @@ A nossa plataforma oferece uma variedade de recompensas para incentivar e premia
 
 ## Primeira Compra
    Ao realizar sua primeira compra na plataforma, você receberá um bônus exclusivo. Esta recompensa é uma forma de comemorar o início da sua jornada conosco e garantir que você tenha uma experiência positiva desde o primeiro momento.
+
+## Caça ao Bug
+   Valorizamos a segurança e qualidade da nossa plataforma! Usuários que encontram e reportam bugs receberão uma recompensa especial. Para participar, basta documentar detalhadamente o problema encontrado através do nosso sistema de suporte. Após a validação da nossa equipe técnica, o bônus será creditado em sua conta como agradecimento pela sua contribuição para a melhoria contínua da plataforma.
